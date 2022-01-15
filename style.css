@@ -6,49 +6,20 @@
     font-family: 'Lobster', cursive;
     font-family: 'Oswald', sans-serif;
      font-family: 'Poppins', sans-serif; 
-     background-color:  #AAAAAA;
+     background-color: rgba(219, 219, 230, 0.87);
  }
 
 
 /* Fast Contener styles  */
 
 .container{
-    background-color: aliceblue;
+    
     width: 1047px;
-    height: 1562px;
+    height: auto;
     margin-left: 212px;
     
 }
-nav{
-    display: flex;
-    
-    text-align: center;
-    padding: 5px 0;
-    cursor: pointer;
-   
-}
-nav h1{
-    margin-left: 30px;
 
-    
-}
- 
-    
-
-nav ul{
-    flex: 1;
-    text-align: right;
-    padding-right: 30px;
-    
-}
-nav ul li{
-    display: inline block;
-    list-style: none;
-    margin: 10px 300px;
-}
-nav ul li a{
-    text-decoration: none;
-}
 .text-box{
     font-size: 50px;
     line-height: 40px;
@@ -143,7 +114,7 @@ nav ul li a{
     color:#FFC014 ;
 }
 .fa-star.emtey{
-    color: #AEAEAE;
+    
 }
 .products-duration{
     align-items: center
@@ -170,4 +141,16 @@ nav ul li a{
     margin-right: 30px;
     word-wrap:initial;
 
+}
+/* footer style  */
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer h3{
+    color: white;
+}
+footer p{
+    color:white;
+    font-size: 12px;
 }
