@@ -1,0 +1,28 @@
+ /* common style  */
+ body{
+     background-color:  #AAAAAA;
+ }
+
+
+/* Fast Contener styles  */
+.fast-contener{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+
+
+}
+.influencer{
+    Width:582px;
+    Height:270px;
+}
+.influencer .start-title{
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+.camera img{
+    Width:440px;
+    Height:414px;
+    
+}
