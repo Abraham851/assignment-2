@@ -1,5 +1,11 @@
+ /* Font add  */
+ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Lobster&family=Oswald:wght@400;500&family=Poppins:wght@400;500&display=swap');
  /* common style  */
  body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+     font-family: 'Poppins', sans-serif; 
      background-color:  #AAAAAA;
  }
 
@@ -15,14 +21,24 @@
 .influencer{
     Width:582px;
     Height:270px;
+   
+    
 }
 .influencer .start-title{
     font-size: 52px;
     font-weight: 700;
     
 }
+.camera{
+    margin-left: 70px;
+}
+
 .camera img{
     Width:440px;
     Height:414px;
     
+}
+/* Populer style */
+.container{
+    background-color: aliceblue;
 }
