@@ -186,11 +186,17 @@ footer p{
 
      /* For Mobile  */
      @media (max-width: 767px){
+         .container{
+             width: 100%;
+         }
          .fast-con{
-             grid-template-columns: repeat(1, 1fr);
+            display: block;
          }
         .populars{
             grid-template-columns: repeat(1, 1fr);
             
         } 
+        .extensions{
+            display: block;
+        }
      }
