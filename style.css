@@ -76,17 +76,21 @@
     height: 44px;
     background-color: #E02C6D;
     border-radius: 35px;
+    margin-top: 20px;
 }
 .button-link a{
     text-decoration: none;
     color: white;
     font-size: 15px;
 }
-/* Populer style */
+/* --------------
+Populer style
+ -------------*/
 
 
 .section-title{
     text-align: center;
+    margin-top: 80px;
 }
 .populars{
     display: grid;
@@ -117,7 +121,7 @@
 }
 .products-detail{
     align-items: center;
-    word-wrap: normal;
+    
     margin-left: 20px;
     margin-right: 10px;
 
@@ -162,6 +166,8 @@
     word-wrap:initial;
 
 }
+
+
 /* footer style  */
 footer{
     background-color: black;
@@ -174,3 +180,14 @@ footer p{
     color:white;
     font-size: 12px;
 }
+     /*--------------
+      media querys
+       ---------------*/
+
+     /* For Mobile  */
+     @media (max-width: 767px){
+        .populars{
+            grid-template-columns: repeat(1, 1fr);
+            background-color: maroon;
+        } 
+     }
