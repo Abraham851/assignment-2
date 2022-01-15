@@ -34,11 +34,41 @@
 }
 
 .camera img{
-    Width:440px;
-    Height:414px;
+    Width:400px;
+    Height: 390px;
     
 }
 /* Populer style */
 .container{
     background-color: aliceblue;
+    width: 1047px;
+    height: 1662px;
+    margin-left: 212px;
 }
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 25px;
+    margin-top: 25px;
+    
+}
+
+
+.popular .products-banner img{
+    width: 280px;
+    height: 155px;
+}
+.products-info{
+    align-items: center;
+    justify-content: center;
+}
+.fa-star{
+    font-size: 16px;
+}
+.fa-star.filled{
+    color:#FFC014 ;
+}
+.fa-star.emtey{
+    color: #AEAEAE;
+}
+
