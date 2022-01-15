@@ -186,8 +186,11 @@ footer p{
 
      /* For Mobile  */
      @media (max-width: 767px){
+         .fast-con{
+             grid-template-columns: repeat(1, 1fr);
+         }
         .populars{
             grid-template-columns: repeat(1, 1fr);
-            background-color: maroon;
+            
         } 
      }
