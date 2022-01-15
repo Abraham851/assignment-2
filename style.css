@@ -15,7 +15,7 @@
 .container{
     background-color: aliceblue;
     width: 1047px;
-    height: 1662px;
+    height: 1562px;
     margin-left: 212px;
     
 }
@@ -49,7 +49,24 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
 }
+.text-box{
+    font-size: 50px;
+    line-height: 40px;
+    margin-top: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    
+}
+@keyframes back{ 
+    100%{
+        background-position: 2000px 0;
+    }
 
+}
 
 .fast-con{
    display: flex;
